@@ -1,11 +1,10 @@
- package com.RunnerFile;
+package com.RunnerFile;
 
 import com.LogIn.LogInClass;
 
-public class RunnerClass {
+public class TestLogIn {
 	public static void main(String[] args) {
 		LogInClass test = new LogInClass();
-		test.getLogIn();
-			}
-
+		test.getLogIn2();
+	}
 }

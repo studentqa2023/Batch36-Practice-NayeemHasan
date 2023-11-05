@@ -36,6 +36,10 @@ public class ConfigClass {
 	}
 	public static void main(String[] args) {
 		getConfigValue("QA_URL");
+		getConfigValue("QA_Url2");
+		getConfigValue("QA_Email");
+		getConfigValue("QA_Email2");
+		getConfigValue("QA_Password");
 		
 	}
 

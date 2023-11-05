@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-05T03:58:52 EST" name="Default suite" finished-at="2023-11-05T03:59:38 EST" duration-ms="46007">
+    <groups>
+      <group name="Smoke">
+        <method signature="AutomationLogInReport.getUrl()[pri:1, instance:com.TestNgReport.AutomationLogInReport@1329eff]" name="getUrl" class="com.TestNgReport.AutomationLogInReport"/>
+        <method signature="AutomationLogInReport.getHomePageLogIn()[pri:2, instance:com.TestNgReport.AutomationLogInReport@1329eff]" name="getHomePageLogIn" class="com.TestNgReport.AutomationLogInReport"/>
+        <method signature="AutomationLogInReport.getLogOut()[pri:3, instance:com.TestNgReport.AutomationLogInReport@1329eff]" name="getLogOut" class="com.TestNgReport.AutomationLogInReport"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-11-05T03:58:52 EST" name="Default test" finished-at="2023-11-05T03:59:38 EST" duration-ms="46007">
+      <class name="com.TestNgReport.AutomationLogInReport">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:com.TestNgReport.AutomationLogInReport@1329eff]" started-at="2023-11-05T03:58:52 EST" name="setupReport" finished-at="2023-11-05T03:58:52 EST" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="getUrl()[pri:1, instance:com.TestNgReport.AutomationLogInReport@1329eff]" started-at="2023-11-05T03:58:52 EST" name="getUrl" finished-at="2023-11-05T03:59:15 EST" duration-ms="22430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="getHomePageLogIn()[pri:2, instance:com.TestNgReport.AutomationLogInReport@1329eff]" started-at="2023-11-05T03:59:15 EST" name="getHomePageLogIn" finished-at="2023-11-05T03:59:36 EST" duration-ms="21207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getHomePageLogIn -->
+        <test-method signature="getLogOut()[pri:3, instance:com.TestNgReport.AutomationLogInReport@1329eff]" started-at="2023-11-05T03:59:36 EST" name="getLogOut" finished-at="2023-11-05T03:59:37 EST" duration-ms="1330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLogOut -->
+        <test-method is-config="true" signature="printTestReprot()[pri:0, instance:com.TestNgReport.AutomationLogInReport@1329eff]" started-at="2023-11-05T03:59:37 EST" name="printTestReprot" finished-at="2023-11-05T03:59:38 EST" duration-ms="732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printTestReprot -->
+      </class> <!-- com.TestNgReport.AutomationLogInReport -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
